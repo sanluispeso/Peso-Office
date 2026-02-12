@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* BACKGROUND IMAGE */
+body {
+    min-height: 100vh;
+    background:
+        linear-gradient(rgba(0, 60, 120, 0.75), rgba(0, 120, 180, 0.75)),
+        url("welcomepage.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* CENTER CONTENT */
+.welcome-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.95);
+    max-width: 600px;
+    width: 100%;
+    padding: 35px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+h1 {
+    font-size: 22px;
+    color: #004aad;
+}
+
+h2 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.tagline {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 25px;
+}
+
+.btn-group {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+button {
+    padding: 12px;
+    font-size: 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: #004aad;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #0066ff;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #0057b8, #00a8cc);
+}
+
+/* MAIN PAGE CONTAINER */
+.page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+/* PAGE TITLE */
+.page h1 {
+    color: #ffffff;
+    font-size: 32px;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+/* ORG CHART IMAGE CARD */
+.orgchart {
+    max-width: 100%;
+    width: 700px;
+    height: auto;
+    background-color: white;
+    border-radius: 30px;
+    padding: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    margin-bottom: 25px;
+}
+
+/* DESCRIPTION TEXT */
+.page p {
+    color: #fff;
+    font-size: 16px;
+    max-width: 700px;
+    margin-bottom: 30px;
+}
+
+/* BACK BUTTON */
+.back {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #0057b8;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.back:hover {
+    background-color: #00a8cc;
+}
+
+
+.logo {
+    width: 200px;
+    height: 120px;
+    object-fit: cover;      
+    border-radius: 60%;     
+}
+
+
+.logo {
+    width: 80px;        
+    height: 80px;       
+    object-fit: contain; 
+}
+
+/* Button Styling */
+.btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #0077b6; /* kulay ng button */
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: #0096c7; /* kulay kapag hover */
+    transform: scale(1.05);
+}
+/* Next Button Styling */
+.Next {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #f5f8fa; /* kulay ng button */
+    color:blue;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 20px;
+}
+
+.Next:hover {
+    background-color: #f2f8fa; /* kulay kapag hover */
+    transform: scale(1.05);
+}
+/* Apply Times New Roman to all headers */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Times New Roman", Times, serif;
+}
+
+
+
+.welcome-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("sanluis.jpg"); /* palitan lang ng pangalan ng image mo */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.card {
+    background-color: white; /* 0.6 = 60% opaque, 40% transparent */
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
