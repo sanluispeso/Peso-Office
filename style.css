@@ -209,3 +209,32 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.page {
+    min-height: 100vh;          /* sakop buong screen */
+    display: flex;
+    flex-direction: column;    /* vertical arrangement */
+    justify-content: center;    /* center vertically */
+    align-items: center;        /* center horizontally */
+    text-align: center;
+}
+
+.vision-mission {
+    max-width: 90%;
+    height: auto;
+    margin: 20px 0;
+}
+
+.Next {
+    margin-top: 20px;
+    padding: 10px 25px;
+    text-decoration: none;
+    background-color: #0a7cff;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+}
